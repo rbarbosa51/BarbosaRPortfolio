@@ -52,5 +52,14 @@ body {
         margin: auto;
         position: relative;
      }
+    #AboutMe {
+        margin-top: 20px;
+    }
+    #AboutMe p {
+        margin: 10px;
+    }
+    .tabIndent {
+        margin-left: 1rem;
+    }
 
 }
