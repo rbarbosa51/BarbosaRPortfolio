@@ -10,12 +10,16 @@ body {
 
 /* Mobile Screens */
 @media screen and (max-width: 767px) {
-    
+    body {
+        background-color: red;
+    }
 }
 
 /* Tables */
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 768px) and (max-width: 991px){
+    body {
+        background-color: blue;
+    }
 }
 /* Desktop resolution */
 @media screen and (min-width: 992px) {
@@ -25,14 +29,18 @@ body {
         border: #8EC3B0 solid 2px;
     }
      .flex-container h1 {
-        flex: 0 0 300px;
+        font-size: 3rem;
+        flex: 0 0 500px;
         justify-content: flex-start;
         margin-right: auto;
      }
      .flex-container a {
+        font-size: 2rem;
+        margin-top: auto;
+        margin-right: 10px;
         flex: 0 0 100px;
         justify-items: flex-end;
-        text-align: right;
+        text-align: center;
      }
 
 }
