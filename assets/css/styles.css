@@ -2,3 +2,37 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #DEF5E5;
+    padding: 5px;
+}
+
+
+/* Mobile Screens */
+@media screen and (max-width: 767px) {
+    
+}
+
+/* Tables */
+@media screen and (min-width: 768px) {
+    
+}
+/* Desktop resolution */
+@media screen and (min-width: 992px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        border: #8EC3B0 solid 2px;
+    }
+     .flex-container h1 {
+        flex: 0 0 300px;
+        justify-content: flex-start;
+        margin-right: auto;
+     }
+     .flex-container a {
+        flex: 0 0 100px;
+        justify-items: flex-end;
+        text-align: right;
+     }
+
+}
