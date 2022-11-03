@@ -9,7 +9,14 @@ body {
 .tabIndent {
     margin-left: 1rem;
 }
-
+hr {
+    color: #8EC3B0;
+    margin-top: 1rem;
+}
+h2 {
+    margin: 1rem 5rem;
+    font-size: 2rem;
+}
 /* Mobile Screens */
 @media screen and (max-width: 767px) {
     body {
@@ -57,11 +64,18 @@ body {
     #AboutMe {
         margin-top: 20px;
     }
-    #AboutMe h2 {
-        margin: 1rem 5rem;
-    }
+    
     #AboutMe p {
         margin: 1rem 5rem;
+    }
+    .work-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1rem 5rem ;
+    }
+    .work-container img {
+        flex: 0 0 400px;
     }
     
 
