@@ -22,6 +22,16 @@ h2 {
 .bottom3rem {
     margin-bottom: 3rem;
 }
+.work-container a {
+    position: relative;
+}
+.insideImageText {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: #DEF5E5;
+    font-size: 2rem;
+}
 /* Mobile Screens */
 @media screen and (max-width: 767px) {
     .flex-container {
