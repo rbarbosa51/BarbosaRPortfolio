@@ -6,7 +6,7 @@ This repository provides the code for the Github Pages site for evaluation of fu
 
 Github Repository: [BarbosaRPortfolio](https://github.com/rbarbosa51/BarbosaRPortfolio)
 
-Github Pages: 
+Github Pages: [Barbosa Portfolio](https://rbarbosa51.github.io/BarbosaRPortfolio/)
 
 ## Screen Shots
 600px Resolution
