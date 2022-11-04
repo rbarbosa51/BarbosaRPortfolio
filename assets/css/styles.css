@@ -17,6 +17,9 @@ h2 {
     margin: 1rem 5rem;
     font-size: 2rem;
 }
+.bottom3rem {
+    margin-bottom: 3rem;
+}
 /* Mobile Screens */
 @media screen and (max-width: 767px) {
     body {
@@ -77,6 +80,19 @@ h2 {
     }
     .work-container img {
         flex: 0 0 400px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-container div {
+        flex: 0 0 200px;
+        /* gap: 1rem; */
+        margin: 1rem 5rem 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-weight: 900;
     }
     
     
