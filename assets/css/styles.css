@@ -6,6 +6,7 @@ body {
     background-color: #DEF5E5;
     padding: 5px;
 }
+/* This creates the indentation of the first word on a paragraph */
 .tabIndent {
     margin-left: 1rem;
 }
@@ -26,7 +27,6 @@ h2 {
     .flex-container {
         display: flex;
         flex-direction: row;
-        /* border: #8EC3B0 solid 2px; */
         width: 500px;
         margin: 5px 5rem;
     }
